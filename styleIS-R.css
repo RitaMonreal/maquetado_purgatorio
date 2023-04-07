@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#fondoPaginaPromocional{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to right, rgb(224, 255, 255), rgb(173, 216, 230));
+    display: flex;
+}
+
+#contPrincipal{
+    
+    height:500px;
+    width: 480px;
+    border-radius: 20px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0px 0px 30px grey;
+}
+
+table{
+    text-align: center;
+}
+
+td{
+    padding: auto;
+}
+label{
+    float:left;
+    margin-left: 6%;
+    font-size: 14px;
+}
+
+input{
+    padding: 9px;
+    border-radius: 12px;
+    border-color: rgb(211,211,211);
+    width: 280px;
+    font-size: 16px;
+}
+
+#bienvenida1{
+    font-size: 32px;
+    margin: 15px 0px 5px 0px;
+}
+#bienvenida2{
+    font-size: 26px;
+    margin: 0%;
+}
+p{
+    font-size: 13px;
+    margin: 5px 0px 5px 0px;
+}
+
+button{
+    padding: 8px;
+    width: 280px;
+    border-radius: 20px;
+    border-color: transparent;
+    font-size: 16px;
+}
+
+#entrar{
+    background-color: rgb(220, 20, 60);
+    color: white;
+}
+
+#facebookB{
+    background-color: rgb(30, 144, 255);
+    color: white;
+    
+}
+
+#googleB{
+   
+
+}
