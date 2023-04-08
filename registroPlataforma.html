@@ -1,4 +1,6 @@
-<!---->
+<!--¿importa si dejo dentro del registro los eventos de los botones que direccionan a los otros inicios de sesión?
+No pude implementar los checkbox :((-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,24 +17,37 @@
         <div id="contPrincipal"> 
             <table align="center">
                 <!--ENCABEZADO-->
-                <tr><td><p id="bienvenida1"> <b>Iniciar sesión</b></p></td></tr>
-                <tr><td><p id="bienvenida2">Abre las puertas de tu mente</p></td></tr>
+                <tr><td><p id="bienvenida1"> <b>Unirse</b></p></td></tr>
+                <tr><td><p id="bienvenida2">y vive el verdadero libre albedrío</p></td></tr>
                 <!--FORMULARIO-->
                 <tr><td><form action="" method="get">      
+                        
+                        <tr><td><label email">Email: </label> </td></tr>          
+                        <tr><td> <input type="email" id="email" name="emailNuevoR" placeholder="Email"></td></tr>
+
                         <tr><td><label nombreUsuario">Usuario: </label> </td></tr>          
                         <tr><td> <input type="text" id="nombreUsuario" name="nombreUsuarioIS" placeholder="Usuario"></td></tr>
-                        
+                            
                         <tr><td><label for="contraseña">Contraseña: </label></td></tr>
                         <tr><td><input type="password" id="contraseña" name="contraseñaIS" placeholder="Contraseña"></td></tr>
-                        <tr><td><p >¿Olvidate tu contraseña?</p></td></tr>
-                        <tr><td> <button id="entrar" type="submit">Acceder</button></td></tr>
+                        <tr><td> <button id="entrar" type="submit">Crear cuenta</button></td></tr>
+                        
+                        <!--OTRAS OPCIONES DE REGISTRO-->
+                        <tr><td><p>o</p></td></tr>
+                
+                        <tr><th> <button id ="googleB" onclick="location.href='https://accounts.google.com/v3/signin/identifier?dsh=S-1324432278%3A1680914912877352&continue=https%3A%2F%2Fmyaccount.google.com%3Futm_source%3Daccount-marketing-page%26utm_medium%3Dgo-to-account-button&ifkv=AQMjQ7T_XXAzS361BxHq-daWBCcmeF9_r-xNo2oNIrfi-Y_BhGd8ONeNQpB6JMuWZZeX7Pei1-zQYQ&service=accountsettings&flowName=GlifWebSignIn&flowEntry=ServiceLogin'">Regístrate con Google</button></th></tr>
+                        <tr><td> <button id ="facebookB" onclick="location.href='https://es-la.facebook.com/'">Regístrate con Facebook</button></td></tr>
+
+
+                        <!--CHECKBOX   
+                        <tr><td><label><input type="checkbox" id="cbox1" value="first_checkbox"> Este es mi primer checkbox</label></td></tr>
+
+                        <tr><td><label><input type="checkbox" id="cbox1" value="first_checkbox"> Este es mi primer checkbox</label></td></tr>-->
+
+                        
+                        <!--CREACION DE CUENTA, LINKEADA A PÁGINA DE REGISTRO-->
+                        <tr><td><p>¿Ya tienes una cuenta en <b>purgatorio</b>? <a href=./inicioSesion.html>Iniciar sesión</a></p></td></tr>
                 </form></td></tr>
-                <!--OTRAS OPCIONES DE INICIO DE SESIÓN-->
-                <tr><td><p>o</p></td></tr>
-                <tr><th> <button id ="googleB" onclick="location.href='https://accounts.google.com/v3/signin/identifier?dsh=S855768779%3A1680841476862841&authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3DOGB%26utm_medium%3Dapp&ec=GAlAwAE&hl=es&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession'">Inicia sesión con Google</button></th></tr>
-                <tr><td> <button id ="facebookB" onclick="location.href='https://es-la.facebook.com/'">Inicia sesión con Facebook</button></td></tr>
-                <!--CREACION DE CUENTA, LINKEADA A PÁGINA DE REGISTRO-->
-                <tr><td><p>¿No tiene una cuenta en <b>purgatorio</b>? <a href=./registroPlataforma.html>Unirse</a></p></td></tr>
             </table>
         </div>
     </div>
