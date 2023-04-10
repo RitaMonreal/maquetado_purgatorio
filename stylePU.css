@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#contenedorGeneral{
+    height: 130vh;
+    width: 98.75vw;
+    background-color: blueviolet;
+    display: block;
+}
+
+div{
+    height: 30px;
+    width: 30px;
+    display: inline;
+}
+
+#informacionUsuario{
+    height: 350px;
+    width: 100%;
+    background-color: white;
+    float: left;
+}
+
+#bannerSuperior{
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(224, 255, 255), rgb(173, 216, 230));
+    float:left;
+}
+
+#iconoListaIz{
+    background-image: url(./assets/listaDespelgable.png);
+    float: left;
+    margin: 15px 0px 15px 25px;
+}
+
+#iconoMenuDerecho{
+    background-image: url(./assets/iconoPerfil.png);
+    float: right;
+    margin: 15px 25px 15px 0px;
+}
+
