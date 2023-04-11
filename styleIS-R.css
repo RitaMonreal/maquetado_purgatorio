@@ -4,15 +4,14 @@ body{
 }
 
 #fondoPaginaPromocional{
-    height: 120vh;
+    height: 100vh;
     width: 100vw;
     background: linear-gradient(to right, rgb(224, 255, 255), rgb(173, 216, 230));
     display: flex;
 }
 
 #contPrincipal{
-    
-    height:610px;
+    height:535px;
     width: 600px;
     border-radius: 20px;
     background-color: white;
@@ -20,7 +19,14 @@ body{
     box-shadow: 0px 0px 30px grey;
 }
 
-
+#contPrincipalIS{
+    height:500px;
+    width: 600px;
+    border-radius: 20px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0px 0px 30px grey;
+}
 
 table{
     text-align: center;
