@@ -1,6 +1,7 @@
 # maquetado_purgatorio
 
 Pantalla registro dispositivo móvil
+
 [![registro-Dispositivom-Movil.jpg](https://i.postimg.cc/fTkYVgPN/registro-Dispositivom-Movil.jpg)](https://postimg.cc/YhKvV8kn)
 
 Pantalla registro escritorio
