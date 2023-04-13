@@ -11,7 +11,7 @@ body{
 }
 
 #contPrincipal{
-    height:535px;
+    height:580px;
     width: 600px;
     border-radius: 20px;
     background-color: white;
@@ -20,7 +20,7 @@ body{
 }
 
 #contPrincipalIS{
-    height:500px;
+    height:560px;
     width: 600px;
     border-radius: 20px;
     background-color: white;
@@ -52,7 +52,7 @@ input{
 
 #bienvenida1{
     font-size: 32px;
-    margin: 15px 0px 5px 0px;
+    margin: 0px 0px 5px 0px;
 }
 #bienvenida2{
     font-size: 26px;
@@ -79,4 +79,12 @@ button{
 #facebookB{
     background-color: rgb(30, 144, 255);
     color: white;
+}
+
+#cerrar{
+    background-color: white;
+    border-radius: 3px;
+    width: 40px;
+    float: right;
+    margin: 10px 15px 0px 0px
 }
