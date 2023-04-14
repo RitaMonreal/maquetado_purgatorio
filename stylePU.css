@@ -7,7 +7,17 @@ body{
     height: 100%;
     width: 100%;
     display: block;
-    background-color:rgb(136, 255, 0);
+    background-color:white;
+}
+
+.guardados{
+    height: 95px;
+    width: 70px;
+    display: flex;
+    background-color:coral;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 #fondo{
@@ -28,9 +38,7 @@ div{
 #informacionUsuario{
     height: 40%;
     width: 100%;
-    background-color: pink;
     float: left;
-    
 }
 
 #bannerSuperior{
@@ -64,7 +72,7 @@ div{
 }
 
 #profilePicture{
-    background-color:greenyellow;
+    background-color:darkseagreen;
     height: 100px;
     width: 100px;
 }
@@ -72,6 +80,13 @@ div{
 table{
     text-align: center;
     margin-bottom: 25px;
+}
+
+#bookmarks{
+    display: none;
+    float: left;
+    width: 100%;
+    height: 20%;
 }
 
 #configuracionPerfil{
@@ -86,40 +101,38 @@ table{
     background-image: url(./assets/configuracion.png);
     width: 30px;
     height: 30px;
-
+    border: none;
     float: right;
     margin-right: 43%;
     margin-top: 20px;
 }
 
 td{
-    background-color: blue;
     width: 110px;
     height: 20px;
     border: 10px;
+    font-size: 16px;
 }
 
 button{
     width: 50%;
-   
-  
     background-color: transparent;
-    border: 0px;
+    border: 1px;
+    border-color: rgb(173, 216,230);
+    border-style: solid;
     font-size: 18px;
 }
 
 #botonesCont{
     width: 100%;
-    background-color: coral;
     display: flex;
     height: 45px;
 }
 
 #biografia{
     width: 100%;
-    height: 16%;
+    height: 19%;
     float: left;
-    background-color: cadetblue;
     border-color: rgb(173, 216, 230);
     border-width: 0px 0px 1px 0px;
     border-style: solid;
@@ -129,8 +142,10 @@ button{
 #siguiendo{
     float: left;
     width: 100%;
-    height: 35%;
-    background-color: crimson;
+    height: 30%;
+    border-color: rgb(173, 216, 230);
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
 }
 
 @media screen and (max-width: 760px){
@@ -140,13 +155,31 @@ button{
         width: 100%;
     }
 
-  #bannerSuperior{
+    #bannerSuperior{
         display: none;
     }
     
+    #cerrar{
+        margin-right: 10%;
+    }
+
+    #informacionUsuario{
+        height: 39%;
+    }
+
+    #bookmarks{
+        display: block;
+        float: left;
+        height: 24%;
+        border-color: rgb(173, 216, 230);
+        border-width: 0px 0px 1px 0px;
+        border-style: solid;
+    }
+
     
-#cerrar{
-    margin-right: 10%;
-}
+    #biografia{
+        height: 21%;
+    }
+
 }
 
