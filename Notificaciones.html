@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificaciones</title>
+    <style>
+       .notifications {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.notifications h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.notification {
+  display: flex;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.notification .icon {
+  flex: 0 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #fff;
+  background-color: #4CAF50;
+  border-radius: 5px 0 0 5px;
+}
+
+.notification .content {
+  flex: 1;
+  padding: 10px;
+}
+
+.notification h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.notification p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+    </style>
+</head>
+<body>
+    <div class="notifications">
+        <h1>Notificaciones</h1>
+        <div class="notification">
+          <div class="icon"><i class="fas fa-bell"></i></div>
+          <div class="content">
+            <h2>Nueva notificación</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac dapibus odio. Proin porttitor augue id urna ultricies bibendum.</p>
+          </div>
+        </div>
+        <div class="notification">
+          <div class="icon"><i class="fas fa-envelope"></i></div>
+          <div class="content">
+            <h2>Nuevo mensaje</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac dapibus odio. Proin porttitor augue id urna ultricies bibendum.</p>
+          </div>
+        </div>
+        <div class="notification">
+          <div class="icon"><i class="fas fa-comment"></i></div>
+          <div class="content">
+            <h2>Nuevo comentario</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac dapibus odio. Proin porttitor augue id urna ultricies bibendum.</p>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

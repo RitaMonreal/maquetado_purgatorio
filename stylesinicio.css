@@ -1,0 +1,222 @@
+.paginaweb{
+    height: 98vh;
+    width: 98vw;
+    background-color: azure;
+  
+  }
+
+  .cuadroOpciones{
+    height: 5vh;
+    width: 100%;
+    background-color: black;
+    flex-wrap: wrap;
+    display: flex;
+    
+  
+
+  }
+  .inicio{
+   
+    text-align: center;
+  
+ 
+    font-size: 18px;
+   margin-right: 5%;
+   color: white;
+    
+    /*padding-right: 15%;*/
+    /*border: solid 1px black; */
+
+  }
+  #purgatorio{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-right: 20%;
+
+  }
+  .cuadrodeInicio{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+   
+
+   
+
+  }
+  .cuadrodePublicacion{
+    /*flex-wrap: wrap;
+    display: flex;*/
+    width: 70%;
+    
+  }
+  .inicioPublicacion{
+    width: 95% ;
+    height: 5%;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 20px;
+    border-bottom: solid 1px black;
+    
+
+
+  }
+  .tipo{
+    font-size: 20px;
+  }
+  .cajadeFecha{
+    font-size: 15px;
+    padding-left: 75%;
+    text-align: center;
+    
+
+  }
+ .publicacion{
+    width: 100%;
+   height: fit-content;
+   padding-left: 10px;
+   /*background-color: rebeccapurple;*/
+
+ }
+  .titulo{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+
+    
+  }
+  .imagenPublicacion{
+    height: 50vh;
+    background-color: blue;
+    width: 65vw;
+    background-image: url(./assets/taylor.webp) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .contenidoPublicacion{
+    height: fit-content;
+    width: 65vw;
+    text-align: justify;
+    margin: 5px;
+    font-size: 17px;
+   
+  }
+  
+  .foroPlegarias{
+    width: 65vw;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: solid 1px black;
+    
+  }
+  .foto{
+    border-radius: 10%;
+    height: 10vh;
+    background-color: rgb(130, 130, 140);
+    width: 5vw;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .comentarioIndividual{
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 10px;
+  }
+  .opinion
+  {
+    width: 50vw;
+    height: fit-content;
+    text-align: justify;
+    font-size: 15px;
+    margin-right: 5%;
+    margin-left: 1%;
+  }
+  #perfilComentario
+  {
+    font-size: 17px;
+
+  }
+  .sugerencias
+  {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+   
+
+  }
+  .sugerenciaImagen
+  {
+    height: 20vh;
+    background-color: rgb(120, 120, 139);
+    width: 80%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+ .contenidoSugerencia
+ {
+  width: 80%;
+ }
+ .likes{
+  height: 5vh;
+  width: 5vw;
+
+  background-repeat: no-repeat;
+  background-image: url(./assets/like.webp);
+  background-size: contain;
+ }
+ .cuadrodeSugerencia
+ {
+  padding-left: 30px;
+ }
+ .imagenOpciones{
+  width: 5vh;
+  height: 5vh;
+  background-image: url(./assets/opciones.jpg);
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 15px;
+  margin-right: 40%;
+ }
+ .comentarioUsuario
+ {
+    margin-top: 10px;
+    display: flex;
+ }
+ textarea{
+
+    width: 50vw;
+    height: 9vh;
+ }
+ .cajaComentario
+ {
+    margin-left: 10px;
+ }
+ #usuario
+ {
+  margin-left: 10%;
+  margin-right: 0px;
+  width: 4vw;
+  height: 4.5vh;
+  background-image: url(./assets/usuario.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
+ #opcionesUsuario
+ {
+  margin-left: 0px;
+  background-image: url(./assets/trianguloOpc.jpg);
+  width: 3vw;
+  height: 3vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+ }
