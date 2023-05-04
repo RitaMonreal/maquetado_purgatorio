@@ -8,14 +8,25 @@
     <link rel="stylesheet" href="stylesinicio.css">
 
 </head>
-<body>  
+<body onclick="ocultaMenu()">  
 <div class="paginaWeb">
     <div class="cuadroOpciones">
-            <div class="imagenOpciones"> </div>
-            <div  class="inicio" id="purgatorio">Purgatorio</div>
-            <div class="inicio">  Unirse </div>
-            <div class="inicio">Iniciar sesion </div>
+            <div class="imagenOpciones" onclick="muestraMenu()"> </div>
+            <div  class="inicio" id="purgatorio"></div>
+            <div class="inicio" style="margin-left: 28%">  Unirse </div>
+            <div class="inicio" style="margin-left: 4%">Iniciar sesion </div>
     </div> 
+
+    <div id="menuSupIz" style="position: fixed;display: none;">
+        <ul style="list-style: none; padding-left: 17px; ">
+            <li>SearchBox</li>
+            <li>Categoria 1</li>
+            <li>Categoria 2</li>
+            <li>Categoria 3</li>
+            <li>Categoria 4</li>
+            <li>Categoria 5</li>
+        </ul>
+    </div>
     <div class="cuadrodeInicio">
         <div class="cuadrodePublicacion">
             <div class="inicioPublicacion">
@@ -124,6 +135,19 @@
     month = date.getMonth() + 1;
     day = date.getDate();
     document.getElementById("fecha").innerHTML = day + "/" + month + "/" + year;
+    const x = new Boolean(false);
+
+    function muestraMenu() {
+        if(x==false){
+            document.getElementById('menuSupIz').style.display = "block";
+            x=true;
+       /* }else{
+            document.getElementById('menuSupIz').style.display = "none";
+            x=false;
+        }*/
+    
+    }
+    }
 
 </script>
 </body>

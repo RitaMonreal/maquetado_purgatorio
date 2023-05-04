@@ -1,3 +1,7 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .paginaweb{
     height: 98vh;
     width: 98vw;
@@ -11,17 +15,30 @@
     background-color: black;
     flex-wrap: wrap;
     display: flex;
-    
-  
-
   }
+
+  #menuSupIz{
+    background-color: aqua;
+    height: 200px;
+    width: 150px;
+    text-align: left;
+  }
+
+  #menuSupDer{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    text-align:right;
+    margin-left: 80%;
+  }
+
   .inicio{
    
     text-align: center;
   
  
     font-size: 18px;
-   margin-right: 5%;
+
    color: white;
     
     /*padding-right: 15%;*/
@@ -29,9 +46,14 @@
 
   }
   #purgatorio{
-    font-size: 24px;
-    font-weight: bolder;
-    margin-right: 20%;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 150px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(./assets/LogoIE.png) ;
+    align-items: center;
 
   }
   .cuadrodeInicio{
@@ -203,20 +225,11 @@
  }
  #usuario
  {
-  margin-left: 10%;
+  margin-left: 38%;
   margin-right: 0px;
   width: 4vw;
   height: 4.5vh;
-  background-image: url(./assets/usuario.webp);
-  background-repeat: no-repeat;
-  background-size: contain;
- }
- #opcionesUsuario
- {
-  margin-left: 0px;
-  background-image: url(./assets/trianguloOpc.jpg);
-  width: 3vw;
-  height: 3vh;
+  background-image: url(./assets/menuUsuario.png);
   background-repeat: no-repeat;
   background-size: contain;
  }
