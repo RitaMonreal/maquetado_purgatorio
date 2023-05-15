@@ -233,3 +233,57 @@ body{
   background-repeat: no-repeat;
   background-size: contain;
  }
+
+
+ /*****************************************/
+ #contenedorPublic{
+/*  background-color: aqua;*/
+  height: 130vh;
+  width: 95%;
+  margin: auto;
+}
+
+#portadaP{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    max-width: 100%;
+    background-image: url(./assets/taylor2.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#articulo{
+  float: left;
+  position: relative;
+  background-color: black;
+  width: 50%;
+  height: 250px;
+  display: inline;
+}
+
+#fotoArticulo{
+  float: left;
+  position: relative;
+  width: 50%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+#titulo{
+  float: left;
+  position: relative;
+  background-color: #F5F5F5;
+  width: 50%;
+  height: 250px;
+
+}
+
+p{
+    float: left;
+    width: 260px;
+    margin: 0;
+    padding: 20px;
+    font-size: 25px;
+}

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="stylesinicio.css">
 
 </head>
-<body onclick="ocultaMenu()">  
+<body>  
 <div class="paginaWeb">
     <div class="cuadroOpciones">
             <div class="imagenOpciones" onclick="muestraMenu()"> </div>
@@ -138,15 +138,7 @@
     const x = new Boolean(false);
 
     function muestraMenu() {
-        if(x==false){
-            document.getElementById('menuSupIz').style.display = "block";
-            x=true;
-       /* }else{
-            document.getElementById('menuSupIz').style.display = "none";
-            x=false;
-        }*/
-    
-    }
+        document.getElementById('menuSupIz').style.display = "block";
     }
 
 </script>

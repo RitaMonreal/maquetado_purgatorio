@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Principal</title>
+    <link rel="stylesheet" href="stylesinicio.css">
+</head>
+<body>  
+    <div class="paginaWeb" style="min-height: 460px;">
+        <div class="cuadroOpciones">
+                <div class="imagenOpciones" onclick="muestraMenu()"> </div>
+                <div  class="inicio" id="purgatorio"></div>
+                <div class="inicio" style="margin-left: 28%">  Unirse </div>
+                <div class="inicio" style="margin-left: 4%">Iniciar sesion </div>
+        </div> 
+    
+        <div id="menuSupIz" style="position: fixed;display: none;">
+            <ul style="list-style: none; padding-left: 17px; ">
+                <li>SearchBox</li>
+                <li>Categoria 1</li>
+                <li>Categoria 2</li>
+                <li>Categoria 3</li>
+                <li>Categoria 4</li>
+                <li>Categoria 5</li>
+            </ul>
+        </div>
+
+        <div id ="contenedorPublic">
+            <div id="portadaP" style="margin: auto;">
+                <p style="width: 100%; font-size: 45px; margin: 0; text-align: center; ">Taylor Swift ¿Cantante o satanista?</p>
+            </div>
+            <div id="articulo">
+                
+                <div id="fotoArticulo" style="background-image: url(./assets/rihanna.jpg);">
+                   
+                </div>
+                <div id="titulo">
+                   <p>La cantante Rihanna sorprende a sus fans con su nuevo sencillo 'El pacto con el demonio'</p> 
+                </div>
+            </div>
+            <div id="articulo">
+                <div id="fotoArticulo" style="background-image: url(./assets/lebronJames.jpg);">
+                    
+                </div>
+                <div id="titulo">
+                    <p>El jugador de baloncesto LeBron James se inspira en los ángeles y los demonios para su nueva línea de zapatillas</p>
+                </div>
+            </div>
+            <div id="articulo">
+                <div id="fotoArticulo" style="background-image: url(./assets/larry.jpg);">
+                    
+                </div>
+                <div id="titulo">
+                    <p>"Larry" conspiración, realidad o marketing</p>
+                </div>
+            </div>
+            <div id="articulo">
+                <div id="fotoArticulo" style="background-image: url(./assets/gloriaTrevi.jpg);">
+                    
+                </div>
+                <div id="titulo">
+                  <p>Gloria Trevi, victima de circunstancias o delincuente</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <script>
+        date = new Date();
+        year = date.getFullYear();
+        month = date.getMonth() + 1;
+        day = date.getDate();
+        document.getElementById("fecha").innerHTML = day + "/" + month + "/" + year;
+        const x = new Boolean(false);
+    
+        function muestraMenu() {
+            document.getElementById('menuSupIz').style.display = "block";
+        }
+    
+    </script>
+    </body>
+</html>
