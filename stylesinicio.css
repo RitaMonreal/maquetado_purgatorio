@@ -3,8 +3,8 @@ body{
 }
 
 .paginaweb{
-    height: 98vh;
-    width: 98vw;
+    height: 100%;
+    width: 100%;
     background-color: azure;
   
   }
@@ -19,23 +19,24 @@ body{
 
   #menuSupIz{
     background-color: aqua;
-    height: 200px;
-    width: 150px;
+    height:fit-content;
+    width: fit-content;
+    padding-right: 1%;
     text-align: left;
   }
 
   #menuSupDer{
     background-color: aqua;
-    height: 200px;
-    width: 200px;
+    height:fit-content;
+    width: fit-content;
     text-align:right;
-    margin-left: 80%;
+    margin-left: 83%;
   }
 
   .inicio{
    
     text-align: center;
-  
+    margin-left: 4%;
  
     font-size: 18px;
 
@@ -44,6 +45,10 @@ body{
     /*padding-right: 15%;*/
     /*border: solid 1px black; */
 
+  }
+  #unirse
+  {
+    margin-left:28%;
   }
   #purgatorio{
     margin-left: 0%;
@@ -133,6 +138,8 @@ body{
     font-size: 20px;
     font-weight: bold;
     border-bottom: solid 1px black;
+    display: flex;
+
     
   }
   .foto{
@@ -149,12 +156,17 @@ body{
     flex-wrap: wrap;
     display: flex;
     margin-top: 10px;
+    font-size: 110%;
+  height: fit-content;
+  text-align: center;
+  color: blueviolet;
   }
   .opinion
   {
     width: 50vw;
     height: fit-content;
     text-align: justify;
+    display:flex;
     font-size: 15px;
     margin-right: 5%;
     margin-left: 1%;
@@ -172,20 +184,27 @@ body{
    
 
   }
+  #tituloSugerencia
+  {
+    font-size: 15px;
+    font-weight: bold;
+  }
   .sugerenciaImagen
   {
-    height: 20vh;
+    height: 25vh;
     background-color: rgb(120, 120, 139);
     width: 80%;
     background-repeat: no-repeat;
     background-size:cover;
-    align-items: center;
+
     margin-bottom: 20px;
     margin-top: 20px;
   }
  .contenidoSugerencia
  {
   width: 80%;
+  font-size: 15px;
+  font-weight: bold;
  }
  .likes{
   height: 5vh;
@@ -198,6 +217,7 @@ body{
  .cuadrodeSugerencia
  {
   padding-left: 30px;
+  
  }
  .imagenOpciones{
   width: 5vh;
@@ -234,59 +254,142 @@ body{
   background-size: contain;
  }
 
+ #tablaIzq
+ {
+  list-style: none; 
+  padding-left: 17px;
+ 
+ }
+ 
+ @media screen and (max-width: 760px){
+  .imagenPublicacion{
+    height: 25vh;
+   width: 100%;
+    margin-top: 5%;
+    
+  }
 
- /*****************************************/
- #contenedorPublic{
-/*  background-color: aqua;*/
-  height: 130vh;
-  width: 95%;
-  margin: auto;
+  .contenidoSugerencia
+ {
+  font-size: 10px;
+  font-weight: bold;
+  text-align: justify;
+  width: 70%;
+  height: 25%;
+ }
+
+ .cuadroOpciones{
+ 
+  width: 100%;
+  
+}
+/**/
+
+.imagenOpciones{
+ 
+  margin-left: 2%;
+  margin-right: 5%;
+ }
+
+ .inicio{
+  font-size: 13px;
+  margin-left: 2%;
+}
+#unirse
+{
+  margin-left: 5%;
 }
 
-#portadaP{
-    position: relative;
-    width: 100%;
-    height: 300px;
-    max-width: 100%;
-    background-image: url(./assets/taylor2.jpg) ;
-    background-repeat: no-repeat;
-    background-size:cover;
+.cuadrodePublicacion{
+  width: 65%;
+}
+.publicacion{
+  width: 100%;
+ 
+ padding-left: 1%;
+ /*background-color: rebeccapurple;*/
+
+}
+.contenidoPublicacion{
+  width: 100%;
+  font-size: 14px; 
 }
 
-#articulo{
-  float: left;
-  position: relative;
-  background-color: black;
+.titulo{
+  margin-top: 10%;
+  font-size: 20px;
+  font-weight: bolder;  
+}
+
+.cuadrodeSugerencia
+ {
+  padding-left: 4%;
+  width: 30%;
+  height: 10%;
+ }
+ .sugerencias
+  {
+    font-size: 15px;
+    margin-top: 4%;
+
+  }
+  .sugerenciaImagen
+  {
+    height: 10vh;
+
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+  .foto{
+    border-radius: 10%;
+    height: 7vh;
+    width: 10vw;
+  
+
+  }
+#textComentario
+{
+  font-size: 9px;
+  height: fit-content;
+  text-align: center;
+}
+.opinion
+{
   width: 50%;
-  height: 250px;
-  display: inline;
+  height: fit-content;
+  font-size: 15px;
+  margin-right: 5%;
+  margin-left: 1%;
+}
+.cajaComentario
+{
+   margin-left: 2%;
+}
+#usuario
+ {
+  margin-left: 25%;
+  margin-right: 0px;
+  width: 10vw;
+  height: 10.5vh;
+ 
+ }
+ #menuSupDer{
+  background-color: aqua;
+  height:fit-content;
+  width: fit-content;
+  text-align:right;
+  margin-left: 50%;
+  font-size: 13px;
+
+
+}
+#menuSupIz{
+  background-color: aqua;
+  height: fit-content;
+  width: fit-content;
+  padding-right: 8%;
+  text-align: left;
+  font-size: 13px;
 }
 
-#fotoArticulo{
-  float: left;
-  position: relative;
-  width: 50%;
-  height: 250px;
-  background-repeat: no-repeat;
-  background-size:cover;
-
-
-}
-
-#titulo{
-  float: left;
-  position: relative;
-  background-color: #F5F5F5;
-  width: 50%;
-  height: 250px;
-
-
-}
-
-p{
-    float: left;
-    width: 260px;
-    margin: 0;
-    padding: 20px;
-    font-size: 25px;
-}
+ }
