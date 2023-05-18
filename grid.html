@@ -33,42 +33,44 @@
             </div>
             <div id="articulo">
                 
-                <div id="fotoArticulo" style="background-image: url(./assets/rihanna.jpg);">
+                <div id="fotoArticulo" style="background-image: url(./assets/rihanna.jpg); ">
                    
                 </div>
-                <div id="titulo">
-                   <p>La cantante Rihanna sorprende a sus fans con su nuevo sencillo 'El pacto con el demonio'</p> 
+                <div id="titulo" style="background:#F5F5F5" onmouseover="this.style.background='black';" onmouseout="this.style.background='#F5F5F5';">
+                   <p onmouseenter="changecolor(this)" onmouseleave="setnormal(this)">La cantante Rihanna sorprende a sus fans con su nuevo sencillo 'El pacto con el demonio'</p> 
                 </div>
             </div>
             <div id="articulo">
                 <div id="fotoArticulo" style="background-image: url(./assets/lebronJames.jpg);">
                     
                 </div>
-                <div id="titulo">
-                    <p>El jugador de baloncesto LeBron James se inspira en los ángeles y los demonios para su nueva línea de zapatillas</p>
+                <div id="titulo" style="background:#F5F5F5" onmouseover="this.style.background='black';" onmouseout="this.style.background='#F5F5F5';">
+                    <p onmouseenter="changecolor(this)" onmouseleave="setnormal(this)">El jugador de baloncesto LeBron James se inspira en los ángeles y los demonios para su nueva línea de zapatillas</p>
                 </div>
             </div>
             <div id="articulo">
                 <div id="fotoArticulo" style="background-image: url(./assets/larry.jpg);">
                     
                 </div>
-                <div id="titulo">
-                    <p>"Larry" conspiración, realidad o marketing</p>
+                <div id="titulo" style="background:#F5F5F5" onmouseover="this.style.background='black';" onmouseout="this.style.background='#F5F5F5';">
+                    <p onmouseenter="changecolor(this)" onmouseleave="setnormal(this)">"Larry" conspiración, realidad o marketing</p>
                 </div>
             </div>
             <div id="articulo">
                 <div id="fotoArticulo" style="background-image: url(./assets/gloriaTrevi.jpg);">
                     
                 </div>
-                <div id="titulo">
-                  <p>Gloria Trevi, victima de circunstancias o delincuente</p>
+                <div id="titulo" style="background:#F5F5F5" onmouseover="this.style.background='black';" onmouseout="this.style.background='#F5F5F5';">
+                  <p onmouseenter="changecolor(this)" onmouseleave="setnormal(this)">Gloria Trevi, victima de circunstancias o delincuente</p>
                 </div>
             </div>
+
 
         </div>
     </div>
     
     <script>
+
         date = new Date();
         year = date.getFullYear();
         month = date.getMonth() + 1;
@@ -76,10 +78,17 @@
         document.getElementById("fecha").innerHTML = day + "/" + month + "/" + year;
         const x = new Boolean(false);
     
-        function muestraMenu() {
-            document.getElementById('menuSupIz').style.display = "block";
+
+        function changecolor(obj) {
+            obj.style.color = "white";
+        }
+
+        function setnormal(obj) {
+            obj.style.color = "black";
         }
     
     </script>
+
+
     </body>
 </html>
