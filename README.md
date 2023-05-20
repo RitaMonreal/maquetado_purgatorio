@@ -44,3 +44,9 @@ Pantalla menú principal usuario registrado escritorio
 
 Pantalla menú principal usuario registrado dispositivo móvil
 [![mmenuUR.jpg](https://i.postimg.cc/Yq7XBxgb/mmenuUR.jpg)](https://postimg.cc/z3dwnKxg)
+
+Pantalla portada usuario no registrado escritorio
+[![Portada-UNRE.jpg](https://i.postimg.cc/nrSM22tp/Portada-UNRE.jpg)](https://postimg.cc/jnNsdz5F)
+
+Pantalla portada usuario no registrado dispositivo móvil
+[![Portada-UNRM.jpg](https://i.postimg.cc/g0bjgr1X/Portada-UNRM.jpg)](https://postimg.cc/5Xpf094b)
