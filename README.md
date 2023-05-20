@@ -21,3 +21,12 @@ Pantalla perfil usuario dispositivo móvil
 
 [![perfil-Usuario1-Dispositivo-Movil.jpg](https://i.postimg.cc/3rjPzscB/perfil-Usuario1-Dispositivo-Movil.jpg)](https://postimg.cc/DmZjXMFJ)
 [![perfil-Usuario2-Dispositivo-Movil.jpg](https://i.postimg.cc/Bnzyx4jq/perfil-Usuario2-Dispositivo-Movil.jpg)](https://postimg.cc/zyn0NmwM)
+
+
+Pantalla notificaciones escritorio
+[![notiE.jpg](https://i.postimg.cc/pdGh0sZy/notiE.jpg)](https://postimg.cc/sBWgx9bR)
+
+Pantalla notificaciones dispositivo móvil
+[![notiM.jpg](https://i.postimg.cc/7Yk6Nvkm/notiM.jpg)](https://postimg.cc/6TMt9mTv)
+
+
