@@ -49,6 +49,7 @@ div{
 }
 
 #iconoListaIz{
+    background-image: url(./Entrega);
     background-image: url(./assets/listaDespelgable.png);
     float: left;
     margin: 15px 0px 15px 25px;

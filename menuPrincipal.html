@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Principal</title>
-    <link rel="stylesheet" href="stylesinicio.css">
+    <link rel="stylesheet" href="styleMenuPrincipal.css">
 </head>
 <body>  
     <div class="paginaWeb" style="min-height: 460px;">
         <div class="cuadroOpciones">
                 <div class="imagenOpciones" onclick="muestraMenu()"> </div>
                 <div  class="inicio" id="purgatorio"></div>
-                <div class="inicio" style="margin-left: 28%">  Unirse </div>
-                <div class="inicio" style="margin-left: 4%">Iniciar sesion </div>
+                <div class="inicio" id="unirse">  Unirse </div>
+                <div class="inicio" id="iniciarSesion">Iniciar sesion </div>
         </div> 
     
         <div id="menuSupIz" style="position: fixed;display: none;">
@@ -29,7 +29,7 @@
 
         <div id ="contenedorPublic">
             <div id="portadaP" style="margin: auto;">
-                <p style="width: 100%; font-size: 45px; margin: 0; text-align: center; ">Taylor Swift ¿Cantante o satanista?</p>
+                <p id="tituloPrincipal" >Taylor Swift ¿Cantante o satanista?</p>
             </div>
             <div id="articulo">
                 
@@ -64,7 +64,22 @@
                   <p onmouseenter="changecolor(this)" onmouseleave="setnormal(this)">Gloria Trevi, victima de circunstancias o delincuente</p>
                 </div>
             </div>
-
+            <div id="articulo">
+                <div id="fotoArticulo" style="background-image: url(./assets/kardashian.jpg);">
+                    
+                </div>
+                <div id="titulo" style="background:#F5F5F5" onmouseover="this.style.background='black';" onmouseout="this.style.background='#F5F5F5';">
+                  <p onmouseenter="changecolor(this)" onmouseleave="setnormal(this)">Las Kardashian y sus repentinos cambios de fisionomia</p>
+                </div>
+            </div>
+            <div id="articulo">
+                <div id="fotoArticulo" style="background-image: url(./assets/tom.jpg);">
+                    
+                </div>
+                <div id="titulo" style="background:#F5F5F5" onmouseover="this.style.background='black';" onmouseout="this.style.background='#F5F5F5';">
+                  <p onmouseenter="changecolor(this)" onmouseleave="setnormal(this)">Hipótesis: los hombres de signos de agua son lo más tóxicos</p>
+                </div>
+            </div>
 
         </div>
     </div>

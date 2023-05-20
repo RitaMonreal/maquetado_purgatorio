@@ -6,11 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notificaciones</title>
     <style>
-       .notifications {
+
+.notifications {
   max-width: 800px;
   margin: auto;
   padding: 20px;
 }
+
+.cuadroOpciones{
+    height: 5vh;
+    width: 100%;
+    background-color: black;
+    flex-wrap: wrap;
+    display: flex;
+  }
 
 .notifications h1 {
   font-size: 24px;
@@ -50,10 +59,57 @@
   font-size: 14px;
   line-height: 1.5;
 }
+
+.imagenOpciones{
+  width: 5vh;
+  height: 5vh;
+  background-image: url(./assets/opciones.jpg);
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 15px;
+  margin-right: 40%;
+ }
+
+ .inicio{
+   
+   text-align: center;
+   margin-left: 4%;
+
+   font-size: 18px;
+
+  color: white;
+   
+   /*padding-right: 15%;*/
+   /*border: solid 1px black; */
+
+ }
+
+ #purgatorio{
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 150px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(./assets/LogoIE.png) ;
+    align-items: center;
+
+  }
+  #iconoMenuDerecho{
+    background-image: url(./assets/iconoPerfil.png);
+    float: right;
+    margin: 15px 25px 15px 0px;
+}
     </style>
 </head>
 <body>
-    <div class="notifications">
+      <div class="cuadroOpciones">
+        <div class="imagenOpciones" onclick="muestraMenu()"> </div>
+        <div  class="inicio" id="purgatorio"></div>
+        <div class="inicio" id="iconoPerfil"></div>
+    </div> 
+    
         <h1>Notificaciones</h1>
         <div class="notification">
           <div class="icon"><i class="fas fa-bell"></i></div>
