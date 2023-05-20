@@ -1,0 +1,131 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+  }
+
+#pagina{
+    height: 100vh;
+    width: 100vw;
+    background-color: azure;
+}
+  
+.notifications {
+   max-width: 800px;
+   margin: auto;
+   padding: 0;
+}
+
+.notifications h1 {
+   font-size: 24px;
+   margin-bottom: 20px;
+}
+
+.notification {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.notification .icon {
+    flex: 0 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 5px 0 0 5px;
+}
+
+.notification .content {
+    flex: 1;
+    margin: 10%;
+}
+
+.notification h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.notification p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.cuadroOpciones{
+    height: 7vh;
+    width: 100%;
+    background-color: black;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.imagenOpciones{
+    width: 5vh;
+    height: 5vh;
+    background-image: url(./assets/opciones.jpg);
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+    margin-right: 40%;
+}
+
+#purgatorio{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 7px;
+    width: 150px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(./assets/LogoIE.png) ;
+    align-items: center;
+}
+
+#usuario
+{
+ margin-left: 34%;
+ margin-right: 0px;
+ width: 5vw;
+ height: 5.5vh;
+ background-image: url(./assets/menuUsuario.png);
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+
+@media screen and (max-width: 820px){
+       
+.cuadroOpciones{ 
+    width: 100%;
+}
+
+
+.imagenOpciones{
+    margin-left: 15px;
+    margin-right: 10%;
+}
+
+#purgatorio{
+    
+    width: 90px;
+    height: 35px;
+    margin-top: 15px;
+}
+
+#usuario{
+ width: 40px;
+ height: 40px;
+}
+
+.notifications {
+    max-width: 100%;
+    margin: auto;
+    padding: 0;
+}
+
+
+
+}
