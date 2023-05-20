@@ -27,6 +27,20 @@ Pantalla notificaciones escritorio
 [![notiee.jpg](https://i.postimg.cc/jdDhbJ9D/notiee.jpg)](https://postimg.cc/8jVvdsTG)
 
 Pantalla notificaciones dispositivo móvil
+
 [![notiM.jpg](https://i.postimg.cc/7Yk6Nvkm/notiM.jpg)](https://postimg.cc/6TMt9mTv)
 
+Pantalla menú principal usuario no registrado escritorio
+[![menuUNR.jpg](https://i.postimg.cc/rFWLQgTj/menuUNR.jpg)](https://postimg.cc/56xGtB6Q)
 
+
+Pantalla menú principal usuario no registrado dispositivo móvil
+[![MmenuUNR.jpg](https://i.postimg.cc/FKH85VM2/MmenuUNR.jpg)](https://postimg.cc/CR9mbkLN)
+
+
+Pantalla menú principal usuario registrado escritorio
+[![menuUR.jpg](https://i.postimg.cc/W1XYnJdS/menuUR.jpg)](https://postimg.cc/18VKRXcN)
+
+
+Pantalla menú principal usuario registrado dispositivo móvil
+[![mmenuUR.jpg](https://i.postimg.cc/Yq7XBxgb/mmenuUR.jpg)](https://postimg.cc/z3dwnKxg)
