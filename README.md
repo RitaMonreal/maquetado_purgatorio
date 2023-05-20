@@ -13,7 +13,7 @@ Pantalla inicio sesión dispositivo móvil
 Pantalla inicio sesión escritorio
 [![inicio-Sesion-Escritorio.jpg](https://i.postimg.cc/yNCRr681/inicio-Sesion-Escritorio.jpg)](https://postimg.cc/mPVhPs9J)
 
-Pantalla perfil usuario escritorio escritorio
+Pantalla perfil usuario escritorio 
 [![perfil-Usuario1-Escritorio.jpg](https://i.postimg.cc/tJHGFym1/perfil-Usuario1-Escritorio.jpg)](https://postimg.cc/Q9Sz3LDs)
 [![perfil-Usuario2-Escritorio.jpg](https://i.postimg.cc/K8sXJtHh/perfil-Usuario2-Escritorio.jpg)](https://postimg.cc/Hr5PL8m6)
 
@@ -24,7 +24,7 @@ Pantalla perfil usuario dispositivo móvil
 
 
 Pantalla notificaciones escritorio
-[![notiE.jpg](https://i.postimg.cc/pdGh0sZy/notiE.jpg)](https://postimg.cc/sBWgx9bR)
+[![notiee.jpg](https://i.postimg.cc/jdDhbJ9D/notiee.jpg)](https://postimg.cc/8jVvdsTG)
 
 Pantalla notificaciones dispositivo móvil
 [![notiM.jpg](https://i.postimg.cc/7Yk6Nvkm/notiM.jpg)](https://postimg.cc/6TMt9mTv)
