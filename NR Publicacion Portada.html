@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>En portada Usuario No Registrado</title>
-    <link rel="stylesheet" href="./stylesinicio.css">
+    <title>En portada UNR</title>
+    <link rel="stylesheet" href="./style-Articulo.css">
 
 </head>
 <body onclick="ocultaMenu()">  
@@ -13,18 +13,15 @@
     <div class="cuadroOpciones">
         <div class="imagenOpciones" onclick="toggleLista('tablaIzq')" > </div>
             <div  class="inicio" id="purgatorio"></div>
-            <div class="inicio" id="unirse">  Unirse </div>
-            <div class="inicio" >Iniciar sesion </div>
+            <div class="inicio" id="unirse" onclick="location.href = './registroPlataforma.html';">  Unirse </div>
+            <div class="inicio" onclick="location.href = './inicioSesion.html';">Iniciar sesion </div>
     </div> 
 
     <div id="menuSupIz" style="position: fixed;">
         <ul  id="tablaIzq" class="izquierdoOculto" style="display: none;">
-            <li>SearchBox</li>
-            <li>Categoria 1</li>
-            <li>Categoria 2</li>
-            <li>Categoria 3</li>
-            <li>Categoria 4</li>
-            <li>Categoria 5</li>
+            <li>Cine</li>
+            <li>Música</li>
+            <li>Varios</li>
         </ul>
     </div>
     <div class="cuadrodeInicio">

@@ -7,7 +7,7 @@
     <title>Pre registro - inicio sesión</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="./stylePreSR.css">
+    <link rel="stylesheet" href="./style-Purgatorio.css">
 
 </head>
 <body>
@@ -15,9 +15,9 @@
         <div id="contenedorGeneral">
             <div class="cuadroOpciones">
                 <div id="purgatorio"> </div>
-                    <div id ="acercaDe">Acerca de </div>
-                    <div class="inicio" id="unirse"> Unirse </div>
-                    <div class="inicio" >Iniciar sesion </div>
+                    <div id ="acercaDe" onclick="location.href = './acercaDe.html';">Acerca de </div>
+                    <div class="inicio" onclick="location.href = './registroPlataforma.html';" id="unirse" > Unirse </div>
+                    <div class="inicio" onclick="location.href = './inicioSesion.html';">Iniciar sesion </div>
             </div> 
         <div class="textoAnimado">
             <h1>Abre las puertas del <span id="words">PURGATORIO</span></h1>
@@ -37,7 +37,7 @@
           i = 0;
           setInterval(function(){ $('#words').fadeOut(function(){
               $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
-            }); }, 3000)
+            }); }, 1500)
         })();
       </script>
 </body>

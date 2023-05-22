@@ -159,6 +159,18 @@ p{
     margin-top: 10%;
 }
 
+
+
+/****************************/
+#menuSupIz{
+    background-color: aqua;
+    height: fit-content;
+    width: fit-content;
+    padding-right: 8%;
+    text-align: left;
+    font-size: 13px;
+  }
+
 @media screen and (max-width: 820px){
     .imagenPublicacion{
     height: 25vh;
