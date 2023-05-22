@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu Principal Usuarios No Registrados</title>
+    <title>Menu Principal Usuarios Registrados</title>
     <link rel="stylesheet" href="style-Menu.css">
 </head>
 <body>  
     <div class="paginaWeb" style="min-height: 460px;">
         <div class="cuadroOpciones">
-                <div class="imagenOpciones" onclick="muestraMenu()"> </div>
-                <div  class="inicio" id="purgatorio"></div>
-                <div class="inicio" id="unirse" onclick="location.href = './registroPlataforma.html';">  Unirse </div>
-                <div class="inicio" id="iniciarSesion" onclick="location.href = './inicioSesion.html';">Iniciar sesion </div>
+            <div class="imagenOpciones" onclick="toggleLista('tablaIzq')"> </div>
+            <div  class="inicio" id="purgatorio"></div>
+            <div class="inicio" id="usuario" onclick="toggleLista('tablaDer')"></div>
         </div> 
 
         <div id="menuSupIz" style="position: fixed;">
@@ -24,16 +23,15 @@
             </ul>
         </div>
     
-        <div id="menuSupIz" style="position: fixed;display: none;">
-            <ul style="list-style: none; padding-left: 17px; ">
-                <li>SearchBox</li>
-                <li>Categoria 1</li>
-                <li>Categoria 2</li>
-                <li>Categoria 3</li>
-                <li>Categoria 4</li>
-                <li>Categoria 5</li>
+        <div id="menuSupDer" style="position: fixed;">
+            <ul style="list-style: none; padding-right: 17px; display: none;"id="tablaDer" class="derechoOculto">
+                <li>Notificaciones</li>
+                <li>Idioma: Español</li>
+                <li>Ayuda</li>
+                <li>Configuración</li>
+                <li>Cerrar sesión</li>
             </ul>
-        </div>
+        </div> 
 
         <div id ="contenedorPublic">
             <div id="portadaP" style="margin: auto;">
@@ -91,6 +89,7 @@
 
         </div>
     </div>
+
     
     <script>
 
@@ -119,8 +118,8 @@
        else{
         lista.style.display="none";
        }
-    }
-
+        
+    }  
     
     </script>
 

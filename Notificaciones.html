@@ -10,9 +10,9 @@
 <body>
   <div id="pagina">
     <div class="cuadroOpciones">
-      <div class="imagenOpciones"> </div>
+      <div class="imagenOpciones" onclick="toggleLista('tablaIzq')"> </div>
       <div  class="inicio" id="purgatorio"></div>
-      <div class="inicio" id="usuario"></div>
+      <div class="inicio" id="usuario" onclick="toggleLista('tablaDer')"></div>
   </div> 
   
   <div id="menuSupIz" style="position: fixed;">
@@ -22,6 +22,16 @@
         <li>Varios</li>
     </ul>
 </div>
+
+<div id="menuSupDer" style="position: fixed;">
+    <ul style="list-style: none; padding-right: 17px; display: none;"id="tablaDer" class="derechoOculto">
+        <li>Notificaciones</li>
+        <li>Idioma: Español</li>
+        <li>Ayuda</li>
+        <li>Configuración</li>
+        <li>Cerrar sesión</li>
+    </ul>
+</div> 
   
     <div class="notifications">
       <h1>Notificaciones</h1>
@@ -48,6 +58,19 @@
       </div>
     </div>
   </div>  
+
+  <script>
+    function toggleLista(tabla) {
+        var lista = document.getElementById(tabla);
+       if(lista.style.display=="none")
+       {
+        lista.style.display="";
+       }
+       else{
+        lista.style.display="none";
+       }
+      }
+  </script>
 
 </body>
 </html>

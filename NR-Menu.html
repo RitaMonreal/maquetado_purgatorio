@@ -4,27 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu Principal Usuarios Registrados</title>
+    <title>Menu Principal Usuarios No Registrados</title>
     <link rel="stylesheet" href="style-Menu.css">
 </head>
 <body>  
     <div class="paginaWeb" style="min-height: 460px;">
         <div class="cuadroOpciones">
-            <div class="imagenOpciones"> </div>
-            <div  class="inicio" id="purgatorio"></div>
-            <div class="inicio" id="usuario"></div>
+                <div class="imagenOpciones" onclick="toggleLista('tablaIzq')"> </div>
+                <div  class="inicio" id="purgatorio"></div>
+                <div class="inicio" id="unirse" onclick="location.href = './Registro-Plataforma.html';">  Unirse </div>
+                <div class="inicio" id="iniciarSesion" onclick="location.href = './Inicio-Sesion.html';">Iniciar sesion </div>
         </div> 
-    
-        <div id="menuSupIz" style="position: fixed;display: none;">
-            <ul style="list-style: none; padding-left: 17px; ">
-                <li>SearchBox</li>
-                <li>Categoria 1</li>
-                <li>Categoria 2</li>
-                <li>Categoria 3</li>
-                <li>Categoria 4</li>
-                <li>Categoria 5</li>
+
+        <div id="menuSupIz" style="position: fixed;">
+            <ul  id="tablaIzq" class="izquierdoOculto" style="display: none;">
+                <li>Cine</li>
+                <li>Música</li>
+                <li>Varios</li>
             </ul>
         </div>
+    
 
         <div id ="contenedorPublic">
             <div id="portadaP" style="margin: auto;">
@@ -100,6 +99,18 @@
         function setnormal(obj) {
             obj.style.color = "black";
         }
+
+        function toggleLista(tabla) {
+        var lista = document.getElementById(tabla);
+       if(lista.style.display=="none")
+       {
+        lista.style.display="";
+       }
+       else{
+        lista.style.display="none";
+       }
+    }
+
     
     </script>
 

@@ -60,14 +60,6 @@ body{
     align-items: center;
 }
 
-#menuSupIz{
-    background-color: aqua;
-    height:fit-content;
-    width: fit-content;
-    padding-right: 1%;
-    text-align: left;
-}
-
 #contenedorPublic{
     height: 100%;
     width: 95%;
@@ -159,17 +151,35 @@ p{
     margin-top: 10%;
 }
 
+#menuSupIz{
+    background-color: aqua;
+    height:fit-content;
+    width: fit-content;
+    padding-right: 1%;
+    text-align: left;
+    position: relative;
+    z-index: 2;
+  }
+  
+#menuSupDer{
+    background-color: aqua;
+    height:fit-content;
+    width: fit-content;
+    text-align:right;
+    margin-left: 83%;
+    position: relative;
+    z-index: 2;
+}
+
+#tablaIzq{
+    list-style: none; 
+    padding-left: 17px;
+  }
+
 
 
 /****************************/
-#menuSupIz{
-    background-color: aqua;
-    height: fit-content;
-    width: fit-content;
-    padding-right: 8%;
-    text-align: left;
-    font-size: 13px;
-  }
+
 
 @media screen and (max-width: 820px){
     .imagenPublicacion{
@@ -204,8 +214,7 @@ p{
     margin-left: 5%;
 }
 
-#purgatorio{
-    
+#purgatorio{   
     width: 90px;
     height: 35px;
     margin-top: 15px;
@@ -213,6 +222,8 @@ p{
 
 #contenedorPublic{
     width: 100%;
+    position: relative;
+    z-index: 1;
 }
 
 #portadaP{ 
@@ -223,21 +234,35 @@ p{
     font-size: 30px; 
 }
 
-#usuario
-{
- width: 40px;
- height: 40px;
+#usuario{
+    width: 40px;
+    height: 40px;
 }
 
-#fotoArticulo{
-   
+#fotoArticulo{   
     width: 45%;
-    
 }
+
 #titulo{
-    
     width: 55%;
-    
+}
+
+#menuSupDer{
+    background-color: aqua;
+    height:fit-content;
+    width: fit-content;
+    text-align:right;
+    margin-left: 50%;
+    font-size: 13px;
+  }
+
+  #menuSupIz{
+    background-color: aqua;
+    height: fit-content;
+    width: fit-content;
+    padding-right: 8%;
+    text-align: left;
+    font-size: 13px;
 }
 
 }
