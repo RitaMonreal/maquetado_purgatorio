@@ -17,6 +17,17 @@ body{
   display: flex;
 }
 
+#bookmark{
+  background-image: url(./assets/bookmark.png) ;
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0;
+  margin-left: 40%;
+  display: inline-block;
+}
+
 #menuSupIz{
   background-color: aqua;
   height:fit-content;
@@ -97,6 +108,7 @@ body{
 .titulo{
   margin-top: 30px;
   font-size: 30px;
+  display: flex;
   font-weight: bolder;
 }
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>En portada UNR</title>
+    <title>Articulo UNR</title>
     <link rel="stylesheet" href="./style-Articulo.css">
 
 </head>
@@ -34,15 +34,15 @@
                 <div class="cajadeFecha">
                     <a>Baphomet</a>
                     <br>
-                    <a id="fecha"> </a>
+                    <b >Autor </b>
 
                 </div>
 
 
             </div>
            <div class="publicacion">
-                <div class="titulo" >
-                   Taylor Swift ¿Cantante o satanista?
+                <div class="titulo">
+                   <div style="display: inline-block;">Taylor Swift ¿Cantante o satanista?</div><div id="bookmark"></div>
                 </div>
                 <div class="imagenPublicacion">
                    
@@ -120,15 +120,7 @@
      </div>
  </div>
 
-<script>
-    date = new Date();
-    year = date.getFullYear();
-    month = date.getMonth() + 1;
-    day = date.getDate();
-    document.getElementById("fecha").innerHTML = day + "/" + month + "/" + year;
-    const x = new Boolean(false);
-
-   
+<script>  
     function toggleLista(tabla) {
         var lista = document.getElementById(tabla);
        if(lista.style.display=="none")
