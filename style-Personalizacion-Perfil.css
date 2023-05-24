@@ -15,7 +15,7 @@ body{
 
 #contPrincipal{
     height:90%;
-    width: 45%;
+    width: 40%;
     border-radius: 20px;
     background-color: white;
     margin: auto;
@@ -33,7 +33,7 @@ table{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90%;
+    height: 100%;
     width: 100%;
 }
 
@@ -51,8 +51,8 @@ input{
     padding: 9px;
   /*  border-radius: 12px;*/
     border-color: rgb(211,211,211);
-    width: 75%;
     font-size: 16px;
+    width: 80%;
 }
 
 #instrucciones{
@@ -73,7 +73,16 @@ input{
     background-image: url("./assets/harryIcon.jpg");
 }
 
-#entrar{
-    background-color: rgb(220, 20, 60);
+#configurar{
+    background-color:darkred;
     color: white;
+}
+
+button{
+    padding: 8px;
+    width: 80%;
+   /* border-radius: 20px;*/
+    border-color: transparent;
+    font-size: 16px;
+    
 }
